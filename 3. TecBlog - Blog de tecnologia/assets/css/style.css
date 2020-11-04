@@ -51,9 +51,22 @@ section {
    float: left;
 }
 
+section article {
+   padding: 20px;
+   margin-bottom: 20px;
+}
+
+section article img {
+   width: 100%;
+}
+
 aside {
    width: 240px;
    float: right;
+}
+
+article h2 {
+   font-size: 1.5em;
 }
 
 footer {
