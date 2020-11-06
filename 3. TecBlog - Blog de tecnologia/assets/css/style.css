@@ -53,16 +53,12 @@ main {
    padding: 15px 0;
 }
 
-aside {
-   background-color: white;
-}
-
-section {
+main > section {
    width: 660px;
    float: left;
 }
 
-section article {
+main > section article {
    background-color: white;
    padding: 20px;
    margin-bottom: 20px;
@@ -81,6 +77,29 @@ article h2 {
    font-size: 1.5em;
    color: #f7b600;
    font-weight: bold;
+}
+
+aside h3 {
+   font-size: 1.17em;
+   font-weight: bold;
+   color: #565656;
+   background-color: #cccccc;
+   padding: 5px;
+}
+
+aside article {
+   font-size: 0.8em;
+   padding: 5px;
+}
+
+aside article:not(:last-child) {
+   border-bottom: 1px dashed #cccccc;
+}
+
+aside section {
+   background-color: white;
+   padding: 10px;
+   margin-bottom: 20px;
 }
 
 footer {
