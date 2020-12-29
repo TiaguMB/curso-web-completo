@@ -137,6 +137,27 @@ body.fotos #navegacao a#fotos {
    border: 2px solid #870529;
 }
 
+.caixa img.imagem-principal {
+   width: 98%;
+   border: 3px solid #dfdfdf;
+}
+
+.caixa h3 {
+   text-transform: uppercase;
+   display: inline;
+   font-size: 0.8em;
+   padding: 3px;
+}
+
+.caixa.destaque h3 {
+   background: #b10333;
+   color: #fff;
+}
+
+.caixa.entrevista h3 {
+   background: #b10333;
+}
+
 #container-rodape {
    background: #294c71;
    padding: 20px;
